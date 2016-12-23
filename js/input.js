@@ -1,11 +1,9 @@
 
 var lastSelected;
-var lastSelectedDate;
-//var list = [];
 
 var select = document.querySelector(".timeinput");
 var dateselect = document.getElementById('inputdate');
-var timeselect = document.getElementById('inputname');
+var nameselect = document.getElementById('inputname');
 
 var list = new Array(select, dateselect, timeselect);
 
