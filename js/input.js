@@ -1,8 +1,14 @@
 
 var lastSelected;
 var lastSelectedDate;
+//var list = [];
 
 var select = document.querySelector(".timeinput");
+var dateselect = document.getElementById('inputdate');
+var timeselect = document.getElementById('inputname');
+
+var list = new Array(select, dateselect, timeselect);
+
 var selectOption = select.options[select.selectedIndex];
 var lastSelected = localStorage.getItem('select');
 
@@ -16,7 +22,7 @@ select.onchange = function () {
    localStorage.setItem('select', lastSelected);
 }
 
-var dateselect = document.getElementById('inputdate');
+
 
 dateselect.onchange = function () {
    localStorage['inputdate3'] = document.getElementById('inputdate').value;
