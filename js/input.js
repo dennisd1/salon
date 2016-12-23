@@ -17,8 +17,8 @@ select.onchange = function () {
 }
 
  setInterval(function() {
-      localStorage['inputdate1'] = document.getElementById('inputdate').innerHTML;
-      localStorage['inputname2'] = document.getElementById('inputname');
+      localStorage['inputdate1'] = document.getElementById('inputdate')..innerText;
+      localStorage['inputname2'] = document.getElementById('inputname').innerText;
       
  }, 20 * 1000);
 //var input = document.getElementById('dateinput').value;
