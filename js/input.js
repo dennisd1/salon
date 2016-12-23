@@ -1,5 +1,5 @@
 
-var lastSelected1;
+var lastSelected;
 
 var select = document.querySelector(".timeinput");
 var selectOption = select.options[select1.selectedIndex];
