@@ -19,11 +19,11 @@ select.onchange = function () {
 var dateselect = document.getElementById('inputdate');
 
 dateselect.onchange = function () {
-   localStorage['inputdate1'] = document.getElementById('inputdate').value;
+   localStorage['inputdate3'] = document.getElementById('inputdate').value;
 }
     
  setInterval(function() {
-     // localStorage['inputdate1'] = document.getElementById('inputdate').value;
+      localStorage['inputdate1'] = document.getElementById('inputdate').value;
       localStorage['inputname2'] = document.getElementById('inputname').value;
  }, 20 * 1000);
 //var input = document.getElementById('dateinput').value;
