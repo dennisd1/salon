@@ -19,7 +19,7 @@ select.onchange = function () {
 var dateselect = document.getElementById('inputdate');
 
 dateselect.onchange = function () {
-   localStorage['inputdate1'] = document.getElementById('inputdate');
+   localStorage['inputdate1'] = document.getElementById('inputdate').value;
 }
     
  setInterval(function() {
