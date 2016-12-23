@@ -1,4 +1,4 @@
-<script>
+
 var lastSelected;
 
 var select = document.querySelector(".timeinput");
@@ -14,4 +14,3 @@ select.onchange = function () {
    console.log(lastSelected);
    localStorage.setItem('select', lastSelected);
 }
-</script>
