@@ -1,16 +1,16 @@
 
-var lastSelected;
+var lastSelected1;
 
-var select = document.querySelector(".timeinput");
-var selectOption = select.options[select.selectedIndex];
-var lastSelected = localStorage.getItem('select');
+var select1 = document.querySelector(".timeinput");
+var selectOption = select.options[select1.selectedIndex];
+var lastSelected1 = localStorage.getItem('select1');
 
 if(lastSelected) {
-    select.value = lastSelected; 
+    select1.value = lastSelected1; 
 }
 
 select.onchange = function () {
-   lastSelected = select.options[select.selectedIndex].value;
-   console.log(lastSelected);
-   localStorage.setItem('select', lastSelected);
+   lastSelected1 = select.options[select1.selectedIndex].value;
+   console.log(lastSelected1);
+   localStorage.setItem('select1', lastSelected1);
 }
