@@ -10,9 +10,14 @@ field.value = today;
 //
 var selectOption = select.options[select.selectedIndex];
 var lastSelected = localStorage.getItem('select');
+//
 var savedname = localStorage.getItem('inputname');
 namefield = document.querySelector('#inputname');
 namefield.value = savedname;
+//
+var savedphone = localStorage.getItem('inputphone');
+phonefield = document.querySelector('#inputphone');
+phonefield.value = savedphone;
 
 if(lastSelected) {
     select.value = lastSelected; 
