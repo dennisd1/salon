@@ -51,12 +51,6 @@ messageselect.onchange = function () {
    localStorage['inputmessage'] = document.getElementById('inputmessage').value;
 }
 
-function show_alert() {
-  if(confirm("Спасибо за запись! Ждем вас."))
-    document.forms[0].submit();
-  else
-    return false;
-}
  //setInterval(function() {
  //     localStorage['inputdate1'] = document.getElementById('inputdate').value;
  //     localStorage['inputname2'] = document.getElementById('inputname').value;
