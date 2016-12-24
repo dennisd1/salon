@@ -39,6 +39,13 @@ nameselect.onchange = function () {
    localStorage['inputname'] = document.getElementById('inputname').value;
 }
 
+phoneselect.onchange = function () {
+   localStorage['inputphone'] = document.getElementById('inputphone').value;
+}
+
+messageselect.onchange = function () {
+   localStorage['inputmessage'] = document.getElementById('inputmessage').value;
+}
  //setInterval(function() {
  //     localStorage['inputdate1'] = document.getElementById('inputdate').value;
  //     localStorage['inputname2'] = document.getElementById('inputname').value;
