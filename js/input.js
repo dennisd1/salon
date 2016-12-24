@@ -4,6 +4,8 @@ var lastSelected;
 var select = document.querySelector(".timeinput");
 var dateselect = document.getElementById('inputdate');
 var nameselect = document.getElementById('inputname');
+var phoneselect = document.getElementById('inputphone');
+var messageselect = document.getElementById('inputmessage');
 var today = new Date().toISOString().substring(0, 10),
 field = document.querySelector('#inputdate');
 field.value = today;
