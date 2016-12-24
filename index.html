@@ -3,6 +3,7 @@ layout: default
 ---
 
 <!-- Start Hero -->
+<section>
 <div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover;">
     <div class="hero-content">
         <div class="container-fluid">
@@ -14,8 +15,7 @@ layout: default
     </div>
 
     <div class="container-fluid">
-        
-        <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
+         <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
             <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Записаться</h3>
             <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
                  <div class="form-field">
@@ -48,7 +48,9 @@ layout: default
                         <option value="19:30">19:30</option>
                         <option value="20:00">20:00</option>
                         <option value="20:30">20:30</option>
-                    </select>        
+                    </select>
+                     </div>
+                </div>
                 <div class="form-field">
                     <input name="name" id="inputname" type="text" placeholder="Name" required>
                 </div>
@@ -64,9 +66,8 @@ layout: default
                 <input type="Подтвердить" class="btn btn-default" value="Send">
             </form>
         </div>
-
-    </div>
-</div>
+ </div>
+</section>
 <!-- End Hero -->
 
 <!-- Start 3 columns -->
