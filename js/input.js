@@ -10,6 +10,9 @@ field.value = today;
 //
 var selectOption = select.options[select.selectedIndex];
 var lastSelected = localStorage.getItem('select');
+var savedname = localStorage.getItem('inputname');
+namefield = document.querySelector('#inputname');
+namefield.value = savedname;
 
 if(lastSelected) {
     select.value = lastSelected; 
