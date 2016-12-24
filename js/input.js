@@ -20,6 +20,10 @@ namefield.value = savedname;
 var savedphone = localStorage.getItem('inputphone');
 phonefield = document.querySelector('#inputphone');
 phonefield.value = savedphone;
+//
+var savedmessage = localStorage.getItem('inputmessage');
+messagefield = document.querySelector('#inputmessage');
+messagefield.value = savedmessage;
 
 if(lastSelected) {
     select.value = lastSelected; 
